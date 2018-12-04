@@ -1,0 +1,234 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "157 MEX 33265282 EUR18009B STEMCO PRODUCTOS INDUSTRIALES   EJE CENTRAL SAHOP 215 MANZANA 53 ZONA INDUSTRIAL SAN   EUROPARTNERS MEXICO  S.A. DE CV  LUIS POTOSI RFC. VPI980521J73 CTC. RICARDO RODRIGUEZ PH.   CALZ. DEL VALLE ALBERTO SANTOS PTE. NO. 404  LOCAL 28  4448041723   COL. DEL VALLE  N.L.  C.P. 6620  RFC EME020824U4A  JAMNA AUTO INDUSTRIES LIMITED   S N SIPCOT INDUSTRIAL PARK A17 19    PILLAIPAKKAM  NAVALUR    Z.P 602105 CHENNAI TAMILNADU   INDIA    EUROPARTNERS MEXICO  S.A. DE CV   NOTIFY  Nagasamy  nagasamy jaispring.com   CALZ. DEL VALLE ALBERTO SANTOS PTE. NO. 404  LOCAL 28 COL.     DEL VALLE  N.L.  C.P. 6620  RFC EME020824U4A    86 1 0053 0014   MEXICO  MEX MAA    MAA QATAR AIRWAYS  USD CC C C NVD NCV CHENNAI  NIL MARKS  AS PER ATACHED MANIFEST   ATTACHED  ENVELOPE WITH DOCS  1 PACKAGE     11 4 467.50    5 573.33 AS AGREED AS AGREED SAID TO CONTAIN      10   125 X 190 X 134 CM     1   125 X 190 X 68 CM     AIR SPRING ROLLING LOBE     FREIGHT COLLECT  11 4 467.50   AS AGREED     AS AGREED     AS AGREED ALL IN     STEMCO PRODUCTOS INDUSTRIALES     .     AS AGREED EUROPARTNERS MEXICO SA AS AGENT QATAR AIRWAYS     12 01 2018 MEXICO D.FEUROPARTNERS MEXICO ",
+        "intent": "invoice",
+        "entities": [
+          {
+            "start": 127,
+            "end": 133,
+            "value": "MEXICO",
+            "entity": "from country"
+          },
+          {
+            "start": 450,
+            "end": 455,
+            "value": "INDIA",
+            "entity": "to country"
+          },
+          {
+            "start": 1138,
+            "end": 1148,
+            "value": "12 01 2018",
+            "entity": "flight date"
+          }
+        ]
+      },
+      {
+        "text": "157 MEX 33265256 EUR18005B CONTITECH MEXICANA SA DE CV   AVENIDA INDUSTRIAS 3515   EUROPARTNERS MEXICO  S.A. DE CV   ZONA INDUSTRIAL. SAN LUIS POTOS   SLP CP 78395    CALZ. DEL VALLE ALBERTO SANTOS PTE. NO. 404  LOCAL 28  RFC. CME990531HR4 CTC. ANA MIRANDA PH.  444 8269400   COL. DEL VALLE  N.L.  C.P. 6620  RFC EME020824U4A  JAMNA AUTO INDUSTRIES LIMITED   S N SIPCOT INDUSTRIAL PARK A17 19    PILLAIPAKKAM  NAVALUR    Z.P 602105 CHENNAI TAMILNADU   INDIA    EUROPARTNERS MEXICO  S.A. DE CV   NOTIFY  Nagasamy  nagasamy jaispring.com   CALZ. DEL VALLE ALBERTO SANTOS PTE. NO. 404  LOCAL 28 COL.     DEL VALLE  N.L.  C.P. 6620  RFC EME020824U4A    86 1 0053 0014   MEXICO  MEX MAA    MAA QATAR AIRWAYS  USD CC C C NVD NCV CHENNAI  NIL MARKS  AS PER ATACHED MANIFEST   ATTACHED  ENVELOPE WITH DOCS  1 PACKAGE     12 4 488.00    4 488.00 AS AGREED AS AGREED SAID TO CONTAIN      12 120 X 106 X 116 CM     EXCLUSIVE PARTS FOR     SUSPENSION SYSTEM     FREIGHT COLLECT  12 4 488.00   AS AGREED     AS AGREED     AS AGREED ALL IN     CONTITECH MEXICANA SA DE CV     .     AS AGREED EUROPARTNERS MEXICO SA AS AGENT QATAR AIRWAYS     10 01 2018 MEXICO D.FEUROPARTNERS MEXICO ",
+        "intent": "invoice",
+        "entities": [
+          {
+            "start": 96,
+            "end": 102,
+            "value": "MEXICO",
+            "entity": "from country"
+          },
+          {
+            "start": 452,
+            "end": 457,
+            "value": "INDIA",
+            "entity": "to country"
+          },
+          {
+            "start": 1128,
+            "end": 1138,
+            "value": "10 01 2018",
+            "entity": "flight date"
+          }
+        ]
+      },
+      {
+        "text": "CHEN CHONG    ADD  THE SIXTH POSTAL DELIVERY ZONE  GUIPING     CITY 5372    GUANGXI PROVINCE  CHINA    PINTER FA.NI ASIA PRIVATE LIMITED    ADD   347  THIRUVALLUVAR STREET  KAATTUTHOTTAM      VELLAKINAR PIRIVU  GN MILLS POST     641  29   COIMBATORE  TN    INDIA  16  59622721      CX 51  9 Jan  2018  SAME AS CONSIGNEE       VOL  .664CBM        FREIGHT COLL  SHANGHAI PU DONG APT   MAA CX USD CC PP N. V. D. AS PER INV.  CHENNAI CX 51  9 Jan  2 18   NIL Total   FOUR 4  WOODEN BOX ONLY   4  WOODEN BOX196. K196. KGS  Indoor LED display PINTER FA.NI   Model No.  Subtotal  RCGIP7.62RG16X24  ",
+        "intent": "invoice",
+        "entities": [
+          {
+            "start": 94,
+            "end": 99,
+            "value": "CHINA",
+            "entity": "from country"
+          },
+          {
+            "start": 51,
+            "end": 67,
+            "value": "GUIPING     CITY",
+            "entity": "from city"
+          },
+          {
+            "start": 238,
+            "end": 249,
+            "value": " COIMBATORE",
+            "entity": "to city"
+          },
+          {
+            "start": 257,
+            "end": 262,
+            "value": "INDIA",
+            "entity": "to country"
+          },
+          {
+            "start": 289,
+            "end": 300,
+            "value": "9 Jan  2018",
+            "entity": "flight date"
+          },
+          {
+            "start": 517,
+            "end": 536,
+            "value": " Indoor LED display",
+            "entity": "material"
+          }
+        ]
+      },
+      {
+        "text": " YANGZHOU POSITIONING TECH CO.  LTD.       ADD THE 3RD FLOOR  WEIHENG BUILDING      NO.20 AREA LANYUAN      Yangzhou  Jiangsu  China      M S SUPERMELT ENGINEERS      65 GAJANAN ESTATE  NEAR ZAVERI ESTATE       Kathwada Singarwa Road  Kathwada        Ahmedabad INDIA    098 78295615    91 9998497210  91 9033364279            AI349 05 Jan  2018   SAME  AS CONSIGNEE          VOL 1.007CBM           FREIGHT COLL  SHANGHAI PU DONG APT     AMD AI  USD CC PP N. V. D. AS PER INV.  AHMEDABAD AI349 05 Jan  2018    NIL  Total   TWELVE 12  CARTON S  ONLY     12CARTON S 210.0K210.0KGS   STUD DIODES       VOL 1.007CBM  ",
+        "intent": "invoice",
+        "entities": [
+          {
+            "start": 117,
+            "end": 125,
+            "value": " Jiangsu",
+            "entity": "from city"
+          },
+          {
+            "start": 127,
+            "end": 132,
+            "value": "China",
+            "entity": "from country"
+          },
+          {
+            "start": 251,
+            "end": 260,
+            "value": "Ahmedabad",
+            "entity": "to city"
+          },
+          {
+            "start": 261,
+            "end": 266,
+            "value": "INDIA",
+            "entity": "to country"
+          },
+          {
+            "start": 332,
+            "end": 344,
+            "value": "05 Jan  2018",
+            "entity": "flight date"
+          }
+        ]
+      },
+      {
+        "text": "057 TLS 6260 5476  HAWB60773191    BALGUERIE  GACHES CHIMIE SPECIALITES 5 AVENUE DIDIER DAURAT  8 RUE LABOUCHE BP 30106  ZI DE THIBAUD 31700 BLAGNAC  31084 TOULOUSE FR   AERO STRUCTURES MANUFACTURING INDIA   PVT LTD UNIT I   AEQUS SPECIAL ECONOMIC ZONE 437A   HATTARGI VILLAGE HUKKERI TALUKA   BELGAUM 591243 IN  BALGUERIE   5 AVENUE DIDIER DAURAT   31700 BLAGNAC EXW SHIPMENT  20 4 7006 3110 115 205547006   TOULOUSE   CDG AIR FRANCE BLR EUR CC XX XX N.V.D N.C.V BANGALORE AF192 15   DOCS ATTACHED       X 117.0K 17.0  SEALANT 1 PARCEL    0.430 x0.430 x 0.460 M  117.0 as agreed  as agreed as agreed      Geoffrey TAUFFENBERGER REF 60AE 773191  as agreed as agreed 12 01 2018 BLAGNAC CEDEX  ",
+        "intent": "invoice",
+        "entities": [
+          {
+            "start": 156,
+            "end": 164,
+            "value": "TOULOUSE",
+            "entity": "from city"
+          },
+          {
+            "start": 165,
+            "end": 167,
+            "value": "FR",
+            "entity": "from country"
+          },
+          {
+            "start": 200,
+            "end": 205,
+            "value": "INDIA",
+            "entity": "to country"
+          },
+          {
+            "start": 294,
+            "end": 301,
+            "value": "BELGAUM",
+            "entity": "to city"
+          },
+          {
+            "start": 666,
+            "end": 676,
+            "value": "12 01 2018",
+            "entity": "flight date"
+          }
+        ]
+      },
+      {
+        "text": "160 HKG 41153722  SZAE18011394       EAGLE TRANS LOGISTICS CO.  LTD.  DELTA SPA  HK  LTD.    FLAT RM C 5 F PERFECT COMMERCIAL BUILDING    A3  17 F  TML TOWER  NO.3 HOI SHING ROAD    20 AUSTIN AVENUE TSIMSHATSUI  KOWLOON HONG KONG     TSUEN WAN  N.T.  HONG KONG.    852  2368 1268  ATTN CATHY   TEL   0769 83085038    UNISOL INDIA PRIVATE.LTD     54 PADUR ROAD.MEVALURKUPPAM VALARPURAM POST     CHENNAI 602105    PH  07550076115  7550086115 MOB  09791937850    ATTN MR. PARATP HS CODE IS 84807900          NOTIFY PARTY     SAME AS CONSIGNEE   EAGLE TRANS LOGISTICS CO.  LTD.     13371310002    HONG KONG  JOB SZAE18011394    FREIGHT COLLECT    MAA CX  HKD CC CC N. V. D. AS PER INV. CHENNAI   CX043 Jan 19  2018  NIL Total   TWO 2  CARTON S  ONLY    2 196.0 K 196.0COLLECT AS ARRANGEDWL51 mould      DIM  46x 33x 21cm 2      V.   11.0 K     AS ARRANGED        EAGLE TRANS LOGISTICS CO.  LTD.       Jan 19  2018  HONG KONG TONY      SZAE18011394 ",
+        "intent": "invoice",
+        "entities": [
+          {
+            "start": 212,
+            "end": 219,
+            "value": "KOWLOON",
+            "entity": "from city"
+          },
+          {
+            "start": 220,
+            "end": 229,
+            "value": "HONG KONG",
+            "entity": "from country"
+          },
+          {
+            "start": 394,
+            "end": 401,
+            "value": "CHENNAI",
+            "entity": "to city"
+          },
+          {
+            "start": 324,
+            "end": 329,
+            "value": "INDIA",
+            "entity": "to country"
+          },
+          {
+            "start": 897,
+            "end": 909,
+            "value": "Jan 19  2018",
+            "entity": "flight date"
+          }
+        ]
+      },
+      {
+        "text": "176 MEX 80491946 EUR18019B STEMCO PRODUCTOS INDUSTRIALES   EJE CENTRAL SAHOP 215 MANZANA 53 ZONA INDUSTRIAL SAN   EUROPARTNERS MEXICO  S.A. DE CV  LUIS POTOSI RFC. VPI980521J73 CTC. RICARDO RODRIGUEZ PH.   CALZ. DEL VALLE ALBERTO SANTOS PTE. NO. 404  LOCAL 28  4448041723   COL. DEL VALLE  N.L.  C.P. 6620  RFC EME020824U4A  JAMNA AUTO INDUSTRIES LIMITED   S N SIPCOT INDUSTRIAL PARK A17 19    PILLAIPAKKAM  NAVALUR    Z.P 602105 CHENNAI TAMILNADU   INDIA    EUROPARTNERS MEXICO  S.A. DE CV   NOTIFY  Nagasamy  nagasamy jaispring.com   CALZ. DEL VALLE ALBERTO SANTOS PTE. NO. 404  LOCAL 28 COL.     DEL VALLE  N.L.  C.P. 6620  RFC EME020824U4A    86 1 0053 0014   MEXICO  MEX MAA    MAA EMIRATES  USD CC C C NVD NCV CHENNAI  NIL MARKS  AS PER ATACHED MANIFEST   ATTACHED  ENVELOPE WITH DOCS  1 PACKAGE     13 5 152.00    6 895.42 AS AGREED AS AGREED SAID TO CONTAIN      13   125x190x134 CM     AIR SPRING ROLLING LOBE     FREIGHT COLLECT  13 5 152.00   AS AGREED     AS AGREED     AS AGREED ALL IN     STEMCO PRODUCTOS INDUSTRIALES     .     AS AGREED EUROPARTNERS MEXICO SA AS AGENT EMIRATES     17 01 2018 MEXICO D.FEUROPARTNERS MEXICO ",
+        "intent": "invoice",
+        "entities": [
+          {
+            "start": 127,
+            "end": 134,
+            "value": "MEXICO ",
+            "entity": "from country"
+          },
+          {
+            "start": 450,
+            "end": 455,
+            "value": "INDIA",
+            "entity": "to country"
+          },
+          {
+            "start": 430,
+            "end": 437,
+            "value": "CHENNAI",
+            "entity": "to city"
+          },
+          {
+            "start": 1098,
+            "end": 1108,
+            "value": "17 01 2018",
+            "entity": "flight date"
+          }
+        ]
+      }
+    ]
+  }
+}
