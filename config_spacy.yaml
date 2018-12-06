@@ -1,6 +1,0 @@
-{
-"pipeline": "spacy_sklearn",
-"path" : "./model",
-"data" : "./",
-"emulate" : "luis"
-}
