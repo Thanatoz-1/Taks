@@ -30,7 +30,7 @@ ipykernel==5.1.0
 ipython==7.2.0
 ipython-genutils==0.2.0
 jedi==0.13.1
-Jinja2==2.10
+Jinja2>=2.10
 jmespath==0.9.3
 jsonschema==2.6.0
 jupyter-client==5.2.3
@@ -72,7 +72,7 @@ PyPDF2==1.26.0
 python-crfsuite==0.9.6
 python-dateutil==2.7.5
 pytz==2018.7
-PyYAML==3.13
+PyYAML>=3.13
 pyzmq==17.1.2
 rasa-nlu==0.13.8
 regex==2018.1.10
